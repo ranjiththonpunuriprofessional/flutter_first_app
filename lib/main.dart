@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
     },
     {
       'questionText': 'What\'s your favorite animal?',
-      'answers': [{'text':'Rabbit','score':10}, {'Snake':'Red','score':7}, {'text':'Elephant','score':3}, {'text':'Lion','score':1},],
+      'answers': [{'text':'Rabbit','score':10}, {'text':'Snake','score':7}, {'text':'Elephant','score':3}, {'text':'Lion','score':1},],
     },
     {
       'questionText': 'What\'s your favorite instructor?',
@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('My First App'),
+          title: Text('Quiz App'),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(_questions, _answerQuestion, _questionIndex)
