@@ -146,13 +146,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "first_app",
+      "name": "flutter_first_app",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-06-02T07:13:47.951550Z",
+  "generated": "2022-06-13T12:49:41.046240Z",
   "generator": "pub",
   "generatorVersion": "2.17.1"
 }
